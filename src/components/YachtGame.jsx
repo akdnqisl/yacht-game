@@ -56,12 +56,12 @@ const YachtGame = () => {
     const game = new Phaser.Game(config);
 
     function preload() {
-      this.load.image("dice1", "/assets/dice1.png");
-      this.load.image("dice2", "/assets/dice2.png");
-      this.load.image("dice3", "/assets/dice3.png");
-      this.load.image("dice4", "/assets/dice4.png");
-      this.load.image("dice5", "/assets/dice5.png");
-      this.load.image("dice6", "/assets/dice6.png");
+      this.load.image("dice1", "./assets/dice1.png");
+      this.load.image("dice2", "./assets/dice2.png");
+      this.load.image("dice3", "./assets/dice3.png");
+      this.load.image("dice4", "./assets/dice4.png");
+      this.load.image("dice5", "./assets/dice5.png");
+      this.load.image("dice6", "./assets/dice6.png");
     }
 
     function create() {
